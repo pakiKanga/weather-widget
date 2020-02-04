@@ -1,0 +1,22 @@
+body {
+  background-color: white;
+}
+
+.globalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  max-width: 960px;
+  border-radius: 0px 0px 8px 8px;
+  border: 1px solid #B0BEC5;
+}
+
+.divider {
+  position: relative;
+  height: 180px;
+  width: 1px;
+  background-color: #B0BEC5;
+}

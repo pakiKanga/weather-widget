@@ -1,0 +1,53 @@
+h1, h2, h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.weatherWidgetContainer {
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 50px;
+}
+
+.widgetTitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.widgetInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cityWind {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.cityName {
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.cityTemperature {
+    font-family: 'Open Sans';
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.widgetImage {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
