@@ -18,7 +18,6 @@ const getWeather = async (lat, lng, key) => {
 
 const Widget = props => {
   const { globalState } = props;
-  console.log(globalState);
   const getPosition = function() {
     return new Promise(function(resolve, reject) {
       navigator.geolocation.getCurrentPosition(resolve, reject);
@@ -40,7 +39,6 @@ const Widget = props => {
       const location = await getPosition();
       const { latitude, longitude } = location.coords;
       let weatherData = await getWeather(latitude, longitude, key);
-      console.log(weatherData);
       const { weather, wind, name, main } = weatherData;
       props.propagateState({weather, wind, name, main});
     }
