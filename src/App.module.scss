@@ -12,44 +12,33 @@ body {
   max-width: 80vw;
   width: fit-content;
   border-radius: 0px 0px 8px 8px;
-  border: 1px solid #B0BEC5;
+  border: 1px solid #b0bec5;
   padding: 20px;
-
 }
 
 .divider {
   position: relative;
   width: 80%;
   height: 1px;
-  background-color: #B0BEC5;
+  background-color: #b0bec5;
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
   .globalContainer {
-    display: flex;
     flex-direction: column;
-
   }
- }
+}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   .globalContainer {
-    display: flex;
     flex-direction: row;
+    max-width: 90vw;
   }
 
   .divider {
     position: relative;
     height: 180px;
     width: 1px;
-    background-color: #B0BEC5;
+    background-color: #b0bec5;
   }
-  
- }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  }
+}

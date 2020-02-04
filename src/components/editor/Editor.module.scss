@@ -1,6 +1,3 @@
-.editorContainer {
-  width: 320px;
-}
 
 .inputElement {
   font-family: "Roboto";
@@ -19,6 +16,7 @@
 .inputElement label {
   display: block;
   padding-bottom: 5px;
+  width: 40px;
 }
 
 input.radioBtn {
@@ -81,4 +79,10 @@ input.radioBtn {
 
 .offsetRight {
     margin-left: 70px;
+}
+
+@media (min-width: 576px) {
+  .editorContainer {
+    width: 320px;
+  }
 }
